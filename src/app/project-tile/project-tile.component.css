@@ -1,0 +1,15 @@
+#project-tile{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+}
+
+#tile-header{
+
+}
+
+#tile-image{
+    width: 300px;
+    height: 150px;
+    overflow: hidden;
+}

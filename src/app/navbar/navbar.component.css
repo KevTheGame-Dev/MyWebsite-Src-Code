@@ -1,0 +1,124 @@
+#navbar{
+    background-color: #d8d8d9;
+    width: 100%;
+    height: 80px;
+}
+
+#navbar #logo{
+    display: inline-block;
+    margin: 5px 0px 5px 30px;
+    height: 70px;
+    width: 62px;
+}
+
+#titles{
+    display: inline-block;
+    position: absolute;
+    margin: 20px 0px 20px 20px;
+}
+
+#titles button{
+    display: block;
+    text-align: left;
+    background:none!important;
+    border:none; 
+    padding:0!important;
+    font: inherit;
+    /*border is optional*/
+    cursor: pointer;
+}
+
+#titles button:hover{
+    text-decoration: underline;
+}
+
+.title{
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+#GD{
+    margin: 0px auto 10px auto;
+}
+
+#SE{
+    margin: 10px auto 0px auto;
+}
+
+#GD h5{
+    margin: 0px;
+}
+
+#SE h5{
+    margin: 0px;
+}
+
+.GDcurrent{
+    color: #926094;
+}
+
+.GDnotcurrent{
+    color: #18191e;
+}
+
+.SEcurrent{
+    color: #4085cc;
+}
+
+.SEnotcurrent{
+    color: #18191e;
+}
+
+/*.GDnotcurrent:hover{
+    color: #926094!important;
+}
+
+.SEnotcurrent:hover{
+    color: #4085cc!important;
+}*/
+
+#navbar #items{
+    float: right;
+    margin: 20px 40px 20px 10px;
+    height: 40px;
+    color: #18191e;
+    font-family: Roboto;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+#navbar #items button{
+    color: #18191e;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: bolder;
+    text-decoration: none;
+
+    background:none;
+    border:none; 
+    padding:0!important;
+    cursor: pointer;
+}
+
+#navbar #items button li{
+    display: inline-block;
+    padding: 5px 25px 5px 25px;
+}
+
+#navbar #items button li p{
+    padding: 0px;
+    margin: 0px;
+}
+
+.currentGD{
+    border-bottom: 6px solid #926094;
+}
+
+.currentSE{
+    border-bottom: 6px solid #4085cc;
+}
+
+#navbar #items button:hover{
+    background-color: #c2c2c3;
+}

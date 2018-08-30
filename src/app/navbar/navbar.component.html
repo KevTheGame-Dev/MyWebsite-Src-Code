@@ -1,0 +1,12 @@
+<div id="navbar">
+    <img id="logo" src={{logoSrc}}>
+    <div id="titles">
+      <button id="GD" (click)="callUpdateFGD(true)"><h5 [ngClass]="whichTitleCurrent('GD')">Game Developer</h5></button>
+      <button id="SE" (click)="callUpdateFGD(false)"><h5 [ngClass]="whichTitleCurrent('SE')">Software Engineer</h5></button>
+    </div>
+    <ul id="items">
+      <button routerLink="/my/bio" (click)="updateCurrentTab('BIO')"><li><p  [ngClass]="whichCurrent('BIO')">Bio</p></li></button>
+      <button routerLink="/my/projects" (click)="updateCurrentTab('PROJECTS')"><li><p  [ngClass]="whichCurrent('PROJECTS')">Projects</p></li></button>
+      <button routerLink="/my/resume" (click)="updateCurrentTab('RESUME')"><li><p  [ngClass]="whichCurrent('RESUME')">Resume</p></li></button>
+    </ul>
+  </div>

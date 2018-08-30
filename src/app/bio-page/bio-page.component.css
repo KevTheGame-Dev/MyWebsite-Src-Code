@@ -1,0 +1,22 @@
+#content{
+    width: 80%;
+    margin: 40px auto 0px auto;
+}
+
+#mainTitle{
+    font-family: Roboto;
+    font-weight: bolder;
+    font-size: 400%;
+    margin: 0px;
+}
+
+.mainTitleGD{
+    color: #926094;
+}
+.mainTitleSE{
+    color: #4085cc;
+}
+
+#gurd{
+    height: calc(100vh-216px)
+}

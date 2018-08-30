@@ -1,0 +1,14 @@
+<div id="content">
+  <h1 id="mainTitle" [ngClass] = "{'mainTitleGD': focusGD, 'mainTitleSE': !focusGD}">Projects</h1>
+
+  <mat-grid-list cols={{gridCol}} rowHeight="300px">
+    <mat-grid-tile *ngFor="let project of projData">
+      <app-project-tile
+        [projectName]=project.projectName 
+        [imageURL]=project.imageURL 
+        [shortDescription]=project.description>
+      </app-project-tile>
+    </mat-grid-tile>
+  </mat-grid-list>
+
+</div>

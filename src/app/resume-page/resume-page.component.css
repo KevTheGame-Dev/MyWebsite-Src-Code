@@ -1,0 +1,32 @@
+p{
+    color: #d8d8d9;
+}
+
+#mainTitle{
+    font-family: Roboto;
+    font-weight: bolder;
+    font-size: 400%;
+    margin: 10px 0px 10px 100px;
+}
+
+.mainTitleGD{
+    color: #926094;
+}
+.mainTitleSE{
+    color: #4085cc;
+}
+
+#content{
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    font-family: Roboto;
+    height: auto;
+}
+
+#myPDF{
+    width: 80%;
+    max-width: 800px;
+    display: block;
+    margin: auto;
+}

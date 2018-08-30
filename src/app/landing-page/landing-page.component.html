@@ -1,0 +1,39 @@
+<div id="content">
+  <img id="logo" src="assets/general-logo-DarkTheme.png">
+  <h1 id="title">Are you looking for a...</h1>
+
+  <mat-grid-list cols="13" rowHeight="300px">
+    
+    <mat-grid-tile colspan="6">
+      <a (click)="callUpdateFGD(true)" routerLink="/my" class="linkCard">
+        <div id="gameDev" class="optionCard">
+          <h1 class="top">
+            Game
+          </h1>
+          <h1 class="bottom">
+            Developer
+          </h1>
+        </div>
+      </a>
+    </mat-grid-tile>
+
+    <mat-grid-tile colspan="1">
+      <mat-divider [vertical]="true" id="divider"></mat-divider>
+    </mat-grid-tile>
+
+    <mat-grid-tile colspan="6">
+      <a (click)="callUpdateFGD(false)" routerLink="/my" class="linkCard">
+        <div id="SE" class="optionCard">
+            <h1 class="top">
+              Software
+            </h1>
+            <h1 class="bottom">
+              Engineer
+            </h1>
+        </div>
+      </a>
+    </mat-grid-tile>
+
+  </mat-grid-list>
+
+</div>

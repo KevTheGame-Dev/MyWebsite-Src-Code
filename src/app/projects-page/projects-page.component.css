@@ -1,0 +1,73 @@
+#content{
+    width: 90%;
+    margin: auto;
+}
+
+#mainTitle{
+    font-family: Roboto;
+    font-weight: bolder;
+    font-size: 400%;
+    margin: 0px;
+}
+
+.mainTitleGD{
+    color: #926094;
+}
+.mainTitleSE{
+    color: #4085cc;
+}
+
+.grid-item{
+    background-color: #d8d8d9;
+    margin: 0px 10px 0px 10px;
+}
+
+.grid-item:hover{
+    border-right: 5px solid #926094;
+    border-bottom: 5px solid #926094;
+}
+
+.card_img{
+    background-size: cover;
+}
+
+.test{
+    background-color: #d8d8d9;
+    color: #18191e;
+    font-family: Roboto;
+    width: 300px;
+    height: 300px;
+}
+
+.test:hover{
+    background-image: linear-gradient(to right, rgba(64,133,204, 0.5) , rgba(146,96,148, 0.5));
+
+}
+
+.test2{
+    background-color: #d8d8d9;
+    color: #18191e;
+    font-family: Roboto;
+    width: 300px;
+    height: 300px;
+}
+
+.test2:hover{
+    background-color: rgba(64,133,204, 0.5);
+    background-image: linear-gradient(to right, rgba(64,133,204, 0.5) , rgba(64,133,204, 0.5));
+
+}
+
+.test3{
+    background-color: #d8d8d9;
+    color: #18191e;
+    font-family: Roboto;
+    width: 300px;
+    height: 300px;
+}
+
+.test3:hover{
+    background-color: rgba(146,96,148, 0.5);
+    /*background-image: linear-gradient(to right, rgba(146,96,148, 0.5) , rgba(146,96,148, 0.5));*/
+
+}

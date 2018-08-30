@@ -1,0 +1,42 @@
+[
+    {
+        "projectName": "test1",
+        "projectType": "GD",
+        "description": "I really love cheese",
+        "imageURL": "assets/code_temp.jpg",
+        "downloadFile": null,
+        "githubURL": null
+    },
+    {
+        "projectName": "test2",
+        "projectType": "SE",
+        "description": "I really love pizza",
+        "imageURL": "assets/code_temp.jpg",
+        "downloadFile": null,
+        "githubURL": null
+    },
+    {
+        "projectName": "test3",
+        "projectType": "GD",
+        "description": "I really love pizza",
+        "imageURL": "assets/code_temp.jpg",
+        "downloadFile": null,
+        "githubURL": null
+    },
+    {
+        "projectName": "test4",
+        "projectType": "SE",
+        "description": "I really love pizza",
+        "imageURL": "assets/code_temp.jpg",
+        "downloadFile": null,
+        "githubURL": null
+    },
+    {
+        "projectName": "test5",
+        "projectType": "GD",
+        "description": "I really love pizza",
+        "imageURL": "assets/code_temp.jpg",
+        "downloadFile": null,
+        "githubURL": null
+    }
+]
